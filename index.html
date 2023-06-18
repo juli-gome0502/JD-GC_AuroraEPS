@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/arroa.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo Eps.png" alt="" width="200px" height="200px">
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='index.html'>Inicio</a></li>
+              <li><a  href='afiliacion/afiliacion.html'>Afiliación</a>
+              </li>
+              <li><a  href='index.html'>Afiliados</a>
+              </li>
+              <li><a  href='asignacion/asignacion.html'>Asignación de citas</a></li>
+              <li><a  href='doctores/doct.html'>Doctores</a>
+              </li>
+              <li><a  href='index.html'>Empleadores</a> </li>
+              <li><a  href='index.html'>Red de Atención</a> </li>
+              <li><a  href='index.html'>Contáctanos</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="papa">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio.btn" id="radio1">
+                <input type="radio" name="radio.btn" id="radio2">
+                <input type="radio" name="radio.btn" id="radio3">
+                <input type="radio" name="radio.btn" id="radio4">
+                <div class="slide uno">
+                    <img src="img/slider1..png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/vih.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/respiracion.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/Diabetes.png" alt="" >
+                    <a class="doctoe" href=""></a>
+
+                </div>
+                <div class="navegar">
+                    <div class="autorbtn1"></div>
+                    <div class="autorbtn2"></div>
+                    <div class="autorbtn3"></div>
+                    <div class="autorbtn4"></div>
+                </div>
+    
+            </div>
+            <div class="manual">
+                <label for="radio1" class="munubtn"></label>
+                <label for="radio2" class="munubtn"></label>
+                <label for="radio3" class="munubtn"></label>
+                <label for="radio4" class="munubtn"></label>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <div class="servi">
+        <img src="img/cancer mama.png" alt="" height="500px" width="400px" >
+      
+    </div>
+    <div class="afil">
+        
+        <div class="form">
+           <br> <br> <br> <br> <br> <br> <h1>CONSULTAS</h1>
+            
+            <div class="credencialesl">
+
+                <label class="lol" for="">Aquí puedes consultar sobre tu Cita</label>
+            </div>
+            <div class="crede">
+                <label for="">Selecione el tipo de Documento</label>
+            </div>
+            <div class="credenciales">
+                <select name="" id="" >
+                    <option value="">Seleccionar</option>
+                    <option value="">Cédula de Ciudadanía</option>
+                    <option value="">Tarjeta de Identidad</option>
+                    <option value="">Cédula Extranjería</option>
+                    <option value="">Certificado Nacido Vivo</option>
+                    <option value=""> Menor sin identificacipon</option>
+                    <option value="">Registro civil</option>
+                    <option value="">Permiso por protección temporal</option>
+                </select>
+            </div>
+            <div class="credes">
+                <label for="">Digite su número de Documento</label>
+            </div>
+            <div class="credenciales">
+                <input type="number">
+            </div>
+            <div class="credenciales">
+               <a href="consultas/consul.html"><input class="boton" type="submit" value="Ingresar"></a> 
+            </div>
+        </div>
+    </div>
+    <div class="vacu">
+        <img src="img/pilas-covid-home-060623.png" alt="" height="500px" width="400px" >
+        
+    </div>
+    <div class="link">
+        <a class="lee" href="index.html">Leer mas...</a>
+    </div>
+    <div class="redes">
+        <div class="fb">
+           <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" width="40px" height="40px" ></a> 
+        </div>
+        <div class="tw">
+            <a href="https://www.twitter.com/" target="_blank"><img src="img/gorjeo.png" alt="" width="40px" height="40px"></a>
+        </div>
+        <div class="ig">
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="" width="40px" height="40px"></a>
+        </div>
+    </div>
+    <footer>
+        <img class="fot" src="img/Logo Eps.png" alt="" width="300px" height="300px">
+        <div class="lineas"></div>
+        
+       
+        <div class="men">
+            <h3>Inicio <br> Afiliación <br> Afiliados <br> Asignación de Citas <br> Doctores <br> Empleadores <br> Red de Atención <br> Contáctanos</h3>
+        </div>
+       
+       
+        
+    </footer>
+    <div class="lineas2"></div>
+    <div class="lineas3"></div>
+    <div class="inn">
+        <h3>Tus Servicios Destacados <br>
+            Preguntas Frecuentes <br>
+            Normatividad <br>
+            Notificaciones judiciales <br>
+            Ley de Transparencia <br>
+            Portabilidad <br>
+            Asociación de Usuarios <br>
+            Keralty <br>
+            Únete a nosotros <br>
+            Portal de Prestadores <br>
+            Mapa del sitio <br>
+            Negación de servicios
+        </h3>
+    </div>
+    <div class="ll">
+        <h3> 
+            WhatsApp Gloria 3202550525Línea de atención:
+            <br>
+            Bogotá 6013759000 <br>
+            Barranquilla 6053226888 <br>
+            Bucaramanga 6076852985 <br>
+            
+            Línea nacional de información general 018000919100 (tel. fijo) <br>
+            Línea nacional de citas 018000940304 (tel. fijo) <br>
+            Marcación desde celular #936 (Tigo, Claro, Movistar)</h3>
+    </div>
+   
+    
+</body>
+</html>

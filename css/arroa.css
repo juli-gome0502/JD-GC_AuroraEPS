@@ -1,0 +1,40 @@
+
+@media screen and (max-width:980px){
+    .papa, .padre {
+       margin-left:-30%;
+       
+   }
+   header{
+        width: 130%;
+   }
+   footer{
+    width: 110%;
+   }
+   .conte{
+       margin-left:20%;
+       
+   }
+   h2{
+       margin-left:6%;
+       
+   }
+   .formulario{
+       margin-left: 10%;
+   }
+   .conten_docs{
+       margin-left: -10%;
+       
+   }
+   .cr{
+       margin-left: -25%;
+
+   }
+   .solli{
+       margin-left: -5%;
+       min-width: -100%;
+   }
+   
+   
+  
+  
+}

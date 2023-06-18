@@ -1,0 +1,246 @@
+header{
+    background-color: rgb(196, 249, 227);
+    height: 150px;
+    width: 1888px;
+}
+.padre{
+    height: 900px;
+    width: 1888px;
+}
+.caj_asign{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    
+}
+
+.dentist{
+    background-color: white;
+    margin-top: 100px;
+    width:900px ;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 500px;
+}
+.bgactivar{
+    background-color: #B985F5;
+    border-radius: 15px;
+    margin-left: 40px;
+    
+}
+fieldset{
+    border: 4px solid black;
+}
+.ofta{
+    background-color: white;
+    margin-top: 100px;
+    width: 470px;
+    margin-left: 500px;
+}
+.img_denti{
+   margin-left: 1000px;
+   margin-top: -560px;
+}
+.img_ofta{
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+.img_medi{
+    margin-left: 500px;
+    margin-top: -250px;
+   
+    
+}
+.fot{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.lineas{
+    width: 2px;
+    height: 300px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -300px;
+}
+.lineas2{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 700px;
+    margin-top: -750px;
+    
+}
+.lineas3{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1100px;
+    margin-top: -400px;
+}
+.men{
+    margin-left: 450px;
+    margin-top: -300px;
+    color: rgb(0, 0, 0);
+   
+    width: 200px;
+}
+.inn{
+    margin-left: 750px;
+    color: rgb(0, 0, 0);
+    margin-top: -400px;
+  
+    width: 220px;
+}
+.ll{
+    margin-left: 1150px;
+    color: rgb(0, 0, 0);
+    margin-top: -280px;
+    
+    width: 230px;
+}
+
+footer{
+    background-color: rgb(196, 249, 227);
+    height: 800px;
+    width: 1888px;
+    margin-top: 100px;
+}
+
+.fb, .tw, .ig{
+    border-radius: 0 20px 20px 0; 
+    
+}
+.fb:hover, .tw:hover, .ig:hover{
+    width: 100px;
+    transition: linear 1s;
+    background-color: rgb(181, 181, 224);
+}
+
+.redes{
+    padding-top: 100px;
+    position: fixed;
+    left: 10px;
+} 
+
+
+.redes{
+    margin-top: -990px;
+    
+}
+.fb{
+    background-color: rgb(54, 54, 87);
+}
+.tw{
+    background-color: rgb(128, 184, 230);
+}
+.ig{
+    background-color: rgb(206, 158, 251);
+}
+.medi2{
+    background-color: #B985F5;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+@media screen and (max-width:900px){
+    header{
+        width: 1000px;
+    }
+    .padre{
+        margin-left: -30px;
+        height: 1800px;
+    }
+    .caj_asign{
+        margin-left: 40px;
+        margin-top: 100px;
+        
+    }
+  .img_medi{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+    .img_denti{
+        margin-left: 50px;
+        margin-top: -500px;
+    }
+    .img_ofta{
+        margin-left: 50px;
+        margin-top: 400px;
+    }
+    .dentist{
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .ofta{
+        margin-left: 40px;
+        margin-top: 300px;
+    }
+    .medi2{
+        margin-left: 50px;
+    }
+    .men{
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .inn{
+        margin-left: 70px;
+        margin-top: -500px;
+
+    }
+    .ll{
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    footer{
+        height: 1500px;
+    }
+}
+@media (min-width:800px) and (max-width:1320px){
+    
+    /* .men{
+        margin-top: -700px;
+    } */
+    
+    .img_denti{
+        margin-left:550px;
+        margin-top: -620px;
+    }
+    .caj_asign{
+        margin-left: 50px;
+        margin-top: 100px;
+        
+    }
+    .img_ofta{
+        margin-top: 150px;
+        margin-left: 560px;
+    }
+    .dentist{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .ofta{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .inn{
+        margin-left: 70%;
+        margin-top: -600px;
+
+    }
+    .ll{
+        margin-left: 70%;
+        margin-top: 50px;
+    }
+    footer{
+        height: 1000px;
+    }
+    
+
+}
+

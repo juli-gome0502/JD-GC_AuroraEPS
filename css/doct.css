@@ -1,0 +1,186 @@
+header{
+    background-color: rgb(196, 249, 227);
+    height: 150px;
+    width: 1888px;
+    margin-top: 10px;
+}
+.log{
+    margin-left: -10px;
+}
+
+
+.barra_nombre, .barra_nombre_2,.barra_nombre_3{
+    color:black;
+    background-color: #8db4d5;
+    width: 1000px;
+    height: 120px;
+    font-size: 35px;
+    margin-left: 400px;
+    padding-left: 00px;
+    margin-top: 100px;
+}
+h3{
+    text-align: center;
+}
+
+
+img{
+    
+    border-radius: 125px ;
+    margin-left: 700px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.conteni,.conteni_2,.conteni_3{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.fot{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.lineas{
+    width: 2px;
+    height: 300px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.lineas2{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 700px;
+    margin-top: -700px;
+    
+}
+.lineas3{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1100px;
+    margin-top: -400px;
+}
+.men{
+    margin-left: 450px;
+    margin-top: -300px;
+    color: rgb(0, 0, 0);
+   
+    width: 200px;
+}
+.inn{
+    margin-left: 750px;
+    color: rgb(0, 0, 0);
+    margin-top: -400px;
+  
+    width: 220px;
+}
+.ll{
+    margin-left: 1150px;
+    color: rgb(0, 0, 0);
+    margin-top: -280px;
+    
+    width: 230px;
+}
+
+footer{
+    background-color: rgb(196, 249, 227);
+    height: 800px;
+    width: 1888px;
+    margin-top: 100px;
+}
+.aa{
+    margin-left: 800px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width:900px){
+    header{
+        width: 1500px;
+   }
+   .barra_nombre {
+    margin-left: 50px;
+   }
+   .barra_nombre_2{
+        margin-left: 50px;
+        margin-top: 400px;
+   }
+   .barra_nombre_3{
+        margin-left: 50px;
+        margin-top: 300px;
+   }
+   h3{
+    margin-left: -500px;
+   }
+   .conteni{
+    margin-left: 90px;
+   }
+   .conteni_2{
+    margin-left: 90px;
+   }
+   .conteni_3{
+    margin-left: 90px;
+   }
+   .doc1{
+    margin-top: 400px;
+    margin-left: 90px;
+   }
+   .doca{
+    margin-left: 90px;
+    margin-top: 370px;
+   }
+   .doc3{
+    margin-top: 400px;
+    margin-left: 90px;
+   }
+   .conten_docs{
+    height: 2300px;
+   }
+    .men{
+        margin-left: 350px;
+        margin-top: -200px;
+    }
+    .inn{
+        margin-left: 70%;
+        margin-top: -300px;
+
+    }
+    .ll{
+        margin-left: 70%;
+        margin-top: 50px;
+    }
+    footer{
+        height: 1000px;
+        height: 1000px;
+    }
+   
+}
+@media (min-width:800px) and (max-width:1320px){
+    header{
+        width: 1500px;
+    }
+    
+    .men{
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .inn{
+        margin-left: 70px;
+        margin-top: -500px;
+
+    }
+    .ll{
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    footer{
+        height: 1500px;
+    }
+    
+
+}

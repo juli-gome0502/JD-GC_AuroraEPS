@@ -1,0 +1,179 @@
+header{
+    background-color: rgb(196, 249, 227);
+    height: 150px;
+    width: 1888px;
+}
+.conte{
+    
+    width: 1888px;
+    height: 700px;
+    margin-top: 10px;
+
+}
+.logo{
+    margin-left: -30px;
+}
+.consulta{
+    border: 10px solid rgb(0, 0, 0);
+    width: 1550px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.nombre{
+    margin-left: 200px;
+    margin-top: -180px;
+}
+.eps{
+    margin-left: 200px;
+}
+.otr{
+    margin-left: 800px;
+    margin-top: -100PX;
+}
+.divi{
+    background-color: grey;
+    height: 25px;
+    width: 1450px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+.in{
+    margin-top: -1px;
+}
+.doc{
+    margin-left: 100px;
+}
+.fot{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.lineas{
+    width: 2px;
+    height: 300px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -300px;
+}
+.lineas2{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 700px;
+    margin-top: -750px;
+    
+}
+.lineas3{
+    width: 2px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1100px;
+    margin-top: -400px;
+}
+.men{
+    margin-left: 450px;
+    margin-top: -300px;
+    color: rgb(0, 0, 0);
+   
+    width: 200px;
+}
+.inn{
+    margin-left: 750px;
+    color: rgb(0, 0, 0);
+    margin-top: -400px;
+  
+    width: 220px;
+}
+.ll{
+    margin-left: 1150px;
+    color: rgb(0, 0, 0);
+    margin-top: -280px;
+    
+    width: 230px;
+}
+
+footer{
+    background-color: rgb(196, 249, 227);
+    height: 800px;
+    width: 1888px;
+    margin-top: 100px;
+}
+.aa{
+    margin-left: 800px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+}
+.fb, .tw, .ig{
+    border-radius: 0 20px 20px 0; 
+    
+}
+.fb:hover, .tw:hover, .ig:hover{
+    width: 100px;
+    transition: linear 1s;
+    background-color: rgb(181, 181, 224);
+}
+
+.redes{
+    padding-top: 100px;
+    position: fixed;
+    left: 10px;
+} 
+
+
+.redes{
+    margin-top: -850px;
+    
+}
+.fb{
+    background-color: rgb(54, 54, 87);
+}
+.tw{
+    background-color: rgb(128, 184, 230);
+}
+.ig{
+    background-color: rgb(206, 158, 251);
+}
+@media screen and (max-width:900px){
+    header{
+        width: 1500px;
+   }
+   .conte{
+    margin-left: -25%;
+   }
+    .inn{
+        margin-left: 70%;
+        margin-top: -500px;
+
+    }
+    .ll{
+        margin-left: 70%;
+        margin-top: 50px;
+    }
+    footer{
+        height: 1200px;
+    }
+   
+}
+@media (min-width:800px) and (max-width:1320px){
+    header{
+        width: 1800px;
+    }
+    /* .men{
+        margin-top: -700px;
+    } */
+    .inn{
+        margin-left: 70%;
+        margin-top: -600px;
+
+    }
+    .ll{
+        margin-left: 70%;
+        margin-top: 50px;
+    }
+    footer{
+        height: 1000px;
+    }
+    
+
+}
